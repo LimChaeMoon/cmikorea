@@ -1,0 +1,44 @@
+.cmi-margin-bottom {
+	margin-bottom : 30px;
+}
+
+.cmi-margin-bottom-40 {
+	margin-bottom : 40px;
+}
+
+.cmi-margin-bottom-20 {
+	margin-bottom : 20px;
+}
+
+.cmi-margin-top-40 {
+	margin-top : 40px;
+}
+
+#cmi-background{
+	background:url(${path}images/back.png);
+	background-repeat: no-repeat;
+	background-size : 100% 100%;
+	line-height: 40px;
+	margin-bottom: 30px;
+}
+
+#title-cmi {
+	margin-top : 10px;
+	padding-top : 20px;
+	font-weight:bold;
+	font-size:20px;
+}
+
+#cmi-background p {
+	color : black;
+}
+.btntoTop {
+	background-color: #41c6f2;
+}
+.btntoTop:before {
+	color : white;
+}
+
+.fa-caret-right:before{
+	color : #999;
+}
