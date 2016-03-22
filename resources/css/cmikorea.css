@@ -42,3 +42,97 @@
 .fa-caret-right:before{
 	color : #999;
 }
+
+#col_no {
+	width : 6%;
+}
+
+#col_title{
+	text-align: center;
+}
+
+#col_email {
+	width : 30%;
+}
+
+#col_regdate {
+	width : 17%;
+	text-align: center;
+}
+
+.col_regdate {
+	text-align: center;
+}
+.col_width {
+	width : 8%;
+}
+#col_cont_title {
+	font-weight: bold;
+}
+#pre_style {
+	background-color: white; 
+	white-space: pre-wrap; 
+	border: 0px; 
+	line-height: 1.2;
+}
+#col_board_no {
+	width : 6%;
+}
+
+#col_board_title{
+	text-align: center;
+}
+
+#col_board_email {
+	width : 30%;
+}
+
+#col_board_regdate {
+	width : 17%;
+	text-align: center;
+}
+
+#col_board_hits {
+	width : 8%;
+}
+
+.col_board_regdate {
+	text-align: center;
+}
+
+#copyright_span {
+	padding-left: 90px;
+}
+
+#copyright_p {
+	text-align: center;
+}
+
+#padding_left_zero {
+	padding-left : 0px;
+}
+.padding_left_zero {
+	padding-left : 0px;
+}
+#search_no {
+	height : 42px;
+	padding : 10px;
+}
+
+.text-transform {
+	text-transform:none;
+}
+
+.div_background {
+	background: #eee;
+}
+
+#img_width_height {
+	width: 400px;
+	height: 300px;
+}
+
+.img_width_height {
+	width: 400px;
+	height: 300px;
+}
