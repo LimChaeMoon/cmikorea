@@ -1,0 +1,333 @@
+@charset"utf-8";
+
+* {font-family:"BusanBada","부산바다";}
+img {vertical-align:top;}
+
+div#wrap {width:100%;}
+/*탑*/
+div#topwrap {
+	width:1280px; height:60px; margin: 0 auto;
+	}
+
+div#topwrap h1 {display: inline-block;margin:20px 0 0;}
+div#topwrap a {display: inline-block;float:right;margin:12px 0 0;}
+
+
+
+.quick {width:108px; height:125px;display:block;position:fixed;top:70px; left:90%;}
+.quick img {width:100%;height:100%;}
+
+
+/* div.top {
+	width:1280px; height:60px; 
+	margin:0 auto; 
+	overflow:hidden;
+	} */
+.section {
+	width:1280px;
+	margin:0 auto;
+}
+
+
+
+
+/*
+
+div.section h2 {font-size:15px; float:left;  line-height:60px;}
+div.section a {}
+div.section a img{float:right; padding-top:10px;}
+*/
+/*why p.why {width:1280px; margin:0 auto; text-align:center; padding:10px 0;}*/
+/*퀵메뉴*/
+
+
+/*메인비쥬얼*/
+#mainwrap {
+	width:100%; height:365px;
+	background:url("../images/main_bg.gif")no-repeat;
+	background-size:cover;
+	}
+#mainwrap div.section p > img{
+	display:block;
+	margin:0 auto;
+	padding-top:90px;
+	}
+#mainwrap div.section > a{
+	width:143px;
+	display:block;
+	margin:0 auto;
+	padding-top:40px;
+	}
+#mainwrap div.section p a {
+	margin:10px auto; display:block;
+	width:160px;height:32px;
+	color:#fff; font-size:20px;
+	letter-spacing:-1px;
+	background:url("../images/main_bg.gif")no-repeat;
+	background-size:15px 15px;
+	background-position:right center;
+	}
+
+/*-----------------point--------------------*/
+div#pointwrap{
+	width:100%; height:920px;
+	background:url("../images/points_bg.gif")no-repeat;
+	background-size:cover;
+	}
+/*제목부분 공통*/
+img.menu_title {margin:0 auto; display:block; padding-top:50px;}
+
+div#pointwrap div.section > ul {
+	overflow:hidden;
+	margin:30px auto;
+	width: 420px;
+	}
+div#pointwrap div.section ul li {float:left; display:block; padding-right:30px; padding-top:30px; margin:0 auto;}
+div#pointwrap div.section ul li:last-child{padding-right:0px;}
+
+/*심층타겟분석 01*/
+div#pointwrap div.section .points01 {
+	position:relative;
+	padding-top:25px;
+	}
+div#pointwrap div.section .points01 > img {
+	display:block;
+	margin: 0 auto;
+	width:750px;
+	}
+div#pointwrap div.section .points01 > p {	
+	width:616px; 
+	margin:0 auto; 
+	line-height:36px;
+	padding-top:55px;}
+
+div#pointwrap div.section .points01 > ul li {position:absolute;}
+
+div#pointwrap div.section .points01 > ul > li:nth-child(1){top: 73px; right: 436px;}
+div#pointwrap div.section .points01 > ul > li:nth-child(2){top: 187px;right: 413px;}
+div#pointwrap div.section .points01 > ul > li:nth-child(3){top: 29px; left: 499px;}
+div#pointwrap div.section .points01 > ul > li:nth-child(4){top: 79px; left: 400px;}
+
+div#pointwrap div.section .points01 > ul > li:nth-child(5){top: 104px; left: 316px;}
+div#pointwrap div.section .points01 > ul > li:nth-child(6){top: 182px; left: 452px;}
+div#pointwrap div.section .points01 > ul > li:nth-child(7){top: 247px; right: 506px;}
+div#pointwrap div.section .points01 > ul > li:nth-child(8){top: 49px; right: 531px;}
+div#pointwrap div.section .points01 > ul > li:nth-child(9){top: 32px; right: 603px;}
+
+/*다양한 경험02*/
+div#pointwrap div.section .points02{
+	position:relative; /*background-color:#444;*/\
+	width:1280px; 
+	margin:50px auto 0;
+	}
+div#pointwrap div.section .points02 img.point_visual {display:block; margin:0 auto;}
+div#pointwrap div.section .points02 ul {}
+div#pointwrap div.section .points02 ul li {position:absolute;}
+
+div#pointwrap div.section .points02 ul li:nth-child(1){ top:40px; left:100px;}
+div#pointwrap div.section .points02 ul li:nth-child(2){ top:146px; left:200px;}
+div#pointwrap div.section .points02 ul li:nth-child(3){ top:259px; left:100px;}
+div#pointwrap div.section .points02 ul li:nth-child(4){ top:372px; left:200px;}
+
+div#pointwrap div.section .points02 ul li:nth-child(5){ top:40px; right:100px;}
+div#pointwrap div.section .points02 ul li:nth-child(6){ top:146px; right:200px;}
+div#pointwrap div.section .points02 ul li:nth-child(7){ top:259px; right:100px;}
+div#pointwrap div.section .points02 ul li:nth-child(8){ top:372px; right:200px;}
+
+/*직접마케팅 실행 03_일반마케팅*/
+div#pointwrap div.section .points03 div.general_point > h2 {text-align: center; width: 1280px; font-size:20px;}
+div#pointwrap div.section .points03 div.general_point {margin:50px auto 0px; width:1280px; position:relative;}
+div#pointwrap div.section .points03 div.general_point > img {width:509px; display:block; margin:0 auto;}
+
+div#pointwrap div.section .points03 div.general_point ul {}
+div#pointwrap div.section .points03 div.general_point ul li {position:absolute;}
+div#pointwrap div.section .points03 div.general_point ul li:first-child {top:140px; left:145px;}
+div#pointwrap div.section .points03 div.general_point ul li:last-child {top:140px; right:145px;}
+
+/*직접마케팅 실행 03_cmi마케팅*/
+div#pointwrap div.section .points03{position:relative;}
+div#pointwrap div.section .points03 div.cmi_point > h2 {text-align: center; width: 1280px; font-size:20px;}
+
+div#pointwrap div.section .points03 div.cmi_point {margin:25px auto 0px; width:1280px; position:relative;}
+div#pointwrap div.section .points03 div.cmi_point > img {display:block; margin:0 auto;}
+
+div#pointwrap div.section .points03 div.cmi_point ul {height:170px;}
+div#pointwrap div.section .points03 div.cmi_point ul li {position:absolute;display:none;}
+
+div#pointwrap div.section .points03 div.cmi_point ul li:nth-child(1) {top:365px; left:390px;}
+div#pointwrap div.section .points03 div.cmi_point ul li:nth-child(2) {top:365px; right:353px;}
+div#pointwrap div.section .points03 div.cmi_point ul li:nth-child(3) {top:140px; left:145px;}
+div#pointwrap div.section .points03 div.cmi_point ul li:nth-child(4) {top:140px; right:145px;}
+
+div#pointwrap div.section .points03 div.cmi_point p {
+	width:341px; 
+	margin:0 auto; 
+	padding-top:20px;
+	}
+
+/*----------------------마케팅포인트--------------------*/
+div#marketingwrap {
+	width:100%;
+	background-color:#eef2f7;
+	background-size:cover;
+	height:1000px;
+	}
+div#marketingwrap div.section {width:1280px;}
+div#marketingwrap div.section > ul {
+	overflow:hidden;
+	margin:50px auto;
+	width:515px;
+	}
+div#marketingwrap div.section > ul li {float:left; display:block; padding-right:20px;}
+div#marketingwrap div.section > ul li:last-child{padding-right:0px;}
+
+/*바이럴마케팅*/
+div#marketingwrap div.section .marketing01{
+	position:relative; /*background-color:#222;*/ 
+	width:1280px; 
+	margin:70px auto 0;
+	text-align:center;
+	}
+div#marketingwrap div.section div.marketing01 > img {width:571px; margin:0 auto;}
+div#marketingwrap div.section div.marketing01 p {line-height:40px; color:#000; padding-top:20px;}
+div#marketingwrap div.section div.marketing01 > ul {}
+div#marketingwrap div.section div.marketing01 > ul li {position:absolute;}
+
+div#marketingwrap div.section div.marketing01 > ul li:nth-child(1) {top:6px; left:620px;}
+div#marketingwrap div.section div.marketing01 > ul li:nth-child(2) {top:54px; right:482px;}
+div#marketingwrap div.section div.marketing01 > ul li:nth-child(3) {top:258px; right:378px;} 
+div#marketingwrap div.section div.marketing01 > ul li:nth-child(4) {bottom: 123px; right: 629px;} 
+div#marketingwrap div.section div.marketing01 > ul li:nth-child(5) {bottom: 175px; left: 488px;} 
+div#marketingwrap div.section div.marketing01 > ul li:nth-child(6) {bottom: 201px; left:719px;} 
+div#marketingwrap div.section div.marketing01 > ul li:nth-child(7) {bottom: 385px; left: 374px;} 
+div#marketingwrap div.section div.marketing01 > ul li:nth-child(8) {top: 116px; left: 425px;} 
+div#marketingwrap div.section div.marketing01 > ul li:nth-child(9) {top:167px; right: 450px;} 
+div#marketingwrap div.section div.marketing01 > ul li:nth-child(10) {top: 269px; right: 508px;} 
+div#marketingwrap div.section div.marketing01 > ul li:nth-child(11) {top: 410px; right: 425px;} 
+div#marketingwrap div.section div.marketing01 > ul li:nth-child(12) {top: 111px; left: 485px;} 
+div#marketingwrap div.section div.marketing01 > ul li:nth-child(13) {top: 346px; left: 483px;} 
+div#marketingwrap div.section div.marketing01 > ul li:nth-child(14) {top: 275px; left:466px;} 
+div#marketingwrap div.section div.marketing01 > ul li:nth-child(15) {top: 112px; left:629px;} 
+div#marketingwrap div.section div.marketing01 > ul li:nth-child(16) {top: 361px; left:602px;} 
+div#marketingwrap div.section div.marketing01 > ul li:nth-child(17) {top: 358px; right:498px;}
+div#marketingwrap div.section div.marketing01 > ul li:nth-child(18) {top: 178px; right:554px;}
+
+/*키워드 광고*/
+div#marketingwrap div.section div.marketing02 {position:relative;}
+div#marketingwrap div.section div.marketing02 > img {width:420px; display:block; margin:0 auto; padding-top:20px;}
+div#marketingwrap div.section div.marketing02 > p{text-align:center;  padding-top:40px; }
+div#marketingwrap div.section div.marketing02 ul {}
+div#marketingwrap div.section div.marketing02 ul li{position:absolute;}
+
+div#marketingwrap div.section div.marketing02 ul li:nth-child(1) {top: -10px; left: 247px;}
+div#marketingwrap div.section div.marketing02 ul li:nth-child(2) {top: 72px;left: 100px;}
+div#marketingwrap div.section div.marketing02 ul li:nth-child(3) {top: 170px; left: 158px;}
+div#marketingwrap div.section div.marketing02 ul li:nth-child(4) {top: 386px;left: 141px;}
+div#marketingwrap div.section div.marketing02 ul li:nth-child(5) {top: 177px; left: 317px;}
+div#marketingwrap div.section div.marketing02 ul li:nth-child(6) {top: 285px;left: 50px;}
+div#marketingwrap div.section div.marketing02 ul li:nth-child(7) { top: 308px;left: 267px;}
+
+div#marketingwrap div.section div.marketing02 ul li:nth-child(8) {top: 416px; right: 230px;}
+div#marketingwrap div.section div.marketing02 ul li:nth-child(9) {top: 297px;right: 244px;
+}
+div#marketingwrap div.section div.marketing02 ul li:nth-child(10) {top: 343px;right: 86px;}
+div#marketingwrap div.section div.marketing02 ul li:nth-child(11) {top: 157px; right: 295px;}
+div#marketingwrap div.section div.marketing02 ul li:nth-child(12) {top: 100px;  right: 107px;}
+div#marketingwrap div.section div.marketing02 ul li:nth-child(13) { top: 193px;  right: 159px;}
+div#marketingwrap div.section div.marketing02 ul li:nth-child(14) { top: 20px;right: 218px;}
+
+/*sns광고*/
+div#marketingwrap div.section div.marketing03 {position:relative; padding-top:60px;}
+div#marketingwrap div.section div.marketing03 h2 {text-align: center; width: 1280px; font-size:20px;}
+div#marketingwrap div.section div.marketing03 > p {text-align: center; width: 1280px; font-size:20px; padding-top:80px;}
+div#marketingwrap div.section div.marketing03 > img {
+	width:490px; 
+	display:block; 
+	margin:0 auto; 
+	padding-top:90px;
+	}
+/*sns광고 전*/
+div#marketingwrap div.section div.marketing03 div.marketing03_on ul {}
+div#marketingwrap div.section div.marketing03 div.marketing03_on ul li{position:absolute;}
+div#marketingwrap div.section div.marketing03 div.marketing03_on ul li:nth-child(1){top:160px; left:218px;}
+div#marketingwrap div.section div.marketing03 div.marketing03_on ul li:nth-child(2){top:380px; left:199px;}
+div#marketingwrap div.section div.marketing03 div.marketing03_on ul li:nth-child(3){top:146px; right:196px;}
+div#marketingwrap div.section div.marketing03 div.marketing03_on ul li:nth-child(4){top:296px; right:196px;}
+div#marketingwrap div.section div.marketing03 div.marketing03_on ul li:nth-child(5){top:430px; right:219px;}
+
+/*sns광고 후*/
+div#marketingwrap div.section div.marketing03 div.marketing03_off {height:600px;}
+div#marketingwrap div.section div.marketing03 div.marketing03_off > p {
+	 text-align:center; padding-top: 40px;
+	}
+div#marketingwrap div.section div.marketing03 div.marketing03_off > img:nth-child(1) {
+    position: absolute;
+    top: 104px;
+    left: 112px;
+    width: 485px;
+}
+div#marketingwrap div.section div.marketing03 div.marketing03_off > img:nth-child(2) {
+    position: absolute;
+    top: 103px;
+    right: 109px;
+    width: 473px;
+}
+/*배너광고*/
+div#marketingwrap div.section div.marketing04 {}
+div#marketingwrap div.section div.marketing04 h2 {
+	width:1280px; text-align:center; padding-top:30px;}
+
+div#marketingwrap div.section div.marketing04 ul {
+	margin:50px auto 0px;
+	background:url("../images/marketing_04_medical_bar.png")no-repeat 1px 150px; 
+	width:841px; height:284px;
+	}
+div#marketingwrap div.section div.marketing04 ul li {padding-left:60px; display:block; float:left;}
+
+div#marketingwrap div.section div.marketing04 h3 {padding:10px 0px; width:1280px; text-align:center; margin-top:20px;}
+div#marketingwrap div.section div.marketing04 h3 > span > img { margin-left:20px;}
+div#marketingwrap div.section div.marketing04 p {text-align:center; margin:0 auto; line-height:40px; padding-top:30px;}
+
+/*보도자료*/
+div#marketingwrap div.section div.marketing05 {}
+div#marketingwrap div.section div.marketing05 ul {width:1080px; margin:0 auto;}
+div#marketingwrap div.section div.marketing05 ul li { float:none; padding-top:20px;}
+div#marketingwrap div.section div.marketing05 ul li:nth-child(1){padding-top:0px;}
+div#marketingwrap div.section div.marketing05 p {text-align:center; padding-top:20px; }
+
+
+/*----------------------cmik서비스--------------------------*/
+
+div#servicewrap {width:1280px; height:700px; margin:0 auto; text-align:center; position:relative;}
+div#servicewrap div.section > img {margin:20px auto 0px}
+div#servicewrap div.section > img:nth-child(2){position:absolute; top:168px; left:480px;}
+div#servicewrap div.section > img:nth-child(3){position:absolute; top:239px; right:450px;}
+div#servicewrap div.section ul {width:1280px;}
+div#servicewrap div.section ul li {position:absolute; font-size:25px;}
+div#servicewrap div.section ul li:nth-child(1) {top:296px; left:515px;} 
+div#servicewrap div.section ul li:nth-child(2) {top:320px; right:465px;} 
+div#servicewrap div.section ul li:nth-child(3) {top:367px; right:459px;} 
+div#servicewrap div.section ul li:nth-child(4) {top:537px; right:585px;} 
+div#servicewrap div.section ul li:nth-child(5) {top:502px; right:628px;} 
+div#servicewrap div.section ul li:nth-child(6) {top:482px; right:538px;} 
+div#servicewrap div.section ul li:nth-child(7) {top:409px; right:461px;} 
+
+div#servicewrap div.section ul li:nth-child(8) {top: 270px; left: 212px;} 
+div#servicewrap div.section ul li:nth-child(9) {top:270px; right:212px;}
+div#servicewrap div.section ul li:nth-child(10) {top: 300px; left: 576px;} 
+
+
+
+/*--------------------푸터탑----------------------*/
+div#footertopwrap {width:100%; height:50px; background:url('../images/footer_top_bg03.gif') center; position:fixed; bottom:0px;}
+div#footertopwrap div.section {width:1280px; margin:50px auto 0px;}
+div#footertopwrap div.section a > img {margin:0 auto; position:fixed; bottom:10px; left:760px;}
+
+/*--------------------푸터바텀----------------------*/
+div#footerbottomwrap {background-color:#e5e5e5; height:105px; padding-top:20px; padding-bottom: 62px;}
+
+div#footerbottomwrap div.section span {font-size:12px; color:#454545;display:block; text-align:center; height:0px;}
+
+
+
+

@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Reset CSS - Tina Kim */
+
+/* 모든 기본 마진 패딩 초기화 */
+* {margin:0; padding:0;}
+
+/* 마진과 패팅 초기화 */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldser, input, p, blockqute, th,td, label, address {margin: 0; padding: 0; }
+
+/* 해더 폰트사이즈 초기화 */
+h1, h2, h3, h4, h5, h6 {font-size: 100%;  font-weight: normal;	color:#000;}
+
+/* 리스트의 스타일 제거 */
+ol, ul {list-style:none;}
+li {vertical-align:top;}
+
+/* 폰트 강조 특성 초기화 */
+address, caption, cite, code, dfn, em, th {font-style: normal; font-weight: normal;}
+
+/* 테이블 스타일 초기화 */
+table {border-collapse: collapse; border-spacing: 0;}
+
+/* 이미지 및 필드셋에서 보더표시 초기화 */
+fieldset, img, button {border: 0; margin:0;}
+
+/* 캡션과 테이블헤더 텍스트 정렬 초기화 */
+caption,th {text-align: left;}
+
+/* 인용구 표시 초기화 */
+q:before, q:after {content: '';}
+
+/* 링크 밑줄 제거 */
+a {text-decoration: none;}
